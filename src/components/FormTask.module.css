@@ -2,13 +2,14 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  width: 100%;
 
   margin-top: calc(0px - 3.375rem/2);
 }
 
 .formTask input {
-  width: 86.68%;
   padding: 1rem;
+  width: 100%;
   background: var(--gray-500);
   color: var(--gray-100);
   border: none;
@@ -27,6 +28,7 @@
 
 .formTask button[type="submit"] {
   padding: 1rem;
+  margin-left: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;

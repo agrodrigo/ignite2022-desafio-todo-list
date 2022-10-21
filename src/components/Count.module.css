@@ -1,0 +1,18 @@
+.count {
+  display: flex;
+  font-weight: bold;
+  gap: 8px;
+}
+
+.count span {
+  color: var(--blue);
+  font-size: 0.875rem;
+}
+
+.count p {
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  background: var(--gray-400);
+  border-radius: 999px;
+  padding: 2px 8px;
+}

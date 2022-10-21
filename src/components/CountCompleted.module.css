@@ -1,0 +1,18 @@
+.countCompleted {
+  display: flex;
+  font-weight: bold;
+  gap: 8px;
+}
+
+.countCompleted span {
+  color: var(--purple);
+  font-size: 0.875rem;
+}
+
+.countCompleted p {
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  background: var(--gray-400);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
